@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	flex-direction: column;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Root*/
+
+.root {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.root__text {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.root__container {
+	width: 50vw;
+	height: 50px;
+	text-align: center;
+
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.root__loud {
+	width: 75%;
+	height: 100%;
+	background-color: yellow;
+
+	border-radius: 4px;
+}
